@@ -1,16 +1,16 @@
 class Calculator :
+  
     
     
-    
-    def add(a, b):
-        print(a+b)
+    def add(a, b , c=0):
+        print(a+b+c)
         
         
-    def subtract(a,b):
-        print(a-b)
+    def subtract(a,b, c=0):
+        print(a-b-c)
 
-    def mult(a, b):
-        print(a*b)
+    def mult(a, b , c=1):
+        print(a*b *c)
         
         
     def div (a,b):
@@ -46,5 +46,7 @@ x = int(input("Enter the first term : "))
 y = int(input("Enter second term : "))
 
 m=Modulo
-m.Modulus(x, y)
+m.Modulus(x, y) 
+
+
 
