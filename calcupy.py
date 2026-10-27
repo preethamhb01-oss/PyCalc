@@ -1,5 +1,5 @@
-print("Welcome to calcupy v1")
 
+print("WELCOME TO CALCUPY V2 ..")
 class Calculator :
   
     
