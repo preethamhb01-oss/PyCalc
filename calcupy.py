@@ -1,6 +1,7 @@
 class Calculator :
     
     
+    
     def add(a, b):
         print(a+b)
         
@@ -22,7 +23,28 @@ class Calculator :
             
 a = int(input("enter first term : "))
 b = int(input("enter second term : "))
+
+
             
 c = Calculator
 
 c.add(a , b)
+class PowerOperator :
+    def power(p):
+        print(f"{p} square is : {p**2}")
+        
+p = int(input ("Enter the number get its Square :  "))
+
+d=PowerOperator
+d.power(p)
+
+class Modulo:
+    def Modulus(x, y):
+        print(f"MODULE : {x%y}")
+        
+x = int(input("Enter the first term : "))
+y = int(input("Enter second term : "))
+
+m=Modulo
+m.Modulus(x, y)
+
