@@ -1,3 +1,5 @@
+print("Welcome to calcupy v1")
+
 class Calculator :
   
     
