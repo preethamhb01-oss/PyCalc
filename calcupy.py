@@ -1,3 +1,4 @@
+print("WELCOME TO CALCUPY V2 ..")
 class Calculator :
   
     
