@@ -28,7 +28,7 @@ class Calculator :
         else:
             print("denominator is not equal to zero")
           
-choice = int(input ("Enter Choice for Operation :  ")
+choice = int(input ("Enter Choice for Operation :  "))
              
 a = int(input("enter first term : "))
 b = int(input("enter second term : "))
